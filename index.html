@@ -4,396 +4,254 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yaqin Hei - AI Researcher & Thought Leader</title>
+    <title>Yaqin Hei — Shipping AI into Production</title>
+    <meta name="description" content="Ex-Apple AI Engineer. Shipping large language models and multi-agent systems into production.">
     <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <div class="container">
-        <!-- Navigation -->
-        <nav class="main-nav">
-            <div class="nav-brand">Yaqin Hei</div>
-            <div class="nav-links">
+    <!-- Navigation -->
+    <header class="nav-header">
+        <nav class="nav-inner">
+            <a href="#" class="nav-brand">Yaqin Hei</a>
+            <div class="nav-right">
                 <a href="#research" data-en="Research" data-zh="研究">Research</a>
-                <a href="#impact" data-en="Impact" data-zh="影响力">Impact</a>
-                <a href="#publications" data-en="Publications" data-zh="论文">Publications</a>
+                <a href="#experience" data-en="Experience" data-zh="经历">Experience</a>
                 <a href="#community" data-en="Community" data-zh="社群">Community</a>
                 <a href="#contact" data-en="Contact" data-zh="联系">Contact</a>
-            </div>
-            <div class="language-toggle">
+                <span class="nav-divider">|</span>
                 <button id="lang-en" class="lang-btn active">EN</button>
                 <button id="lang-zh" class="lang-btn">中文</button>
             </div>
         </nav>
+    </header>
 
-        <!-- Hero Section -->
-        <header class="hero">
-            <div class="hero-content">
+    <main>
+        <!-- Hero -->
+        <section class="hero">
+            <div class="hero-inner">
+                <img src="myphoto.png" alt="Yaqin Hei" class="hero-photo">
                 <div class="hero-text">
-                    <div class="hero-label" data-en="AI Researcher & Thought Leader" data-zh="AI研究者 & 思想领袖">AI Researcher & Thought Leader</div>
-                    <h1 class="hero-title">
-                        <span data-en="Building Robust & Aligned" data-zh="构建稳健且对齐的">Building Robust & Aligned</span><br>
-                        <span class="gradient-text" data-en="AI Systems" data-zh="AI系统">AI Systems</span>
-                    </h1>
-                    <p class="hero-description" data-en="Machine Learning Engineer at Apple (via Cognizant) | Specializing in LLMs, Conversational AI, and Reinforcement Learning | Building AI communities with 5K+ members" data-zh="Apple机器学习工程师（通过Cognizant） | 专注大语言模型、对话式AI和强化学习 | 构建5K+成员的AI社群">
-                        Machine Learning Engineer at Apple (via Cognizant) | Specializing in LLMs, Conversational AI, and Reinforcement Learning | Building AI communities with 5K+ members
+                    <h1 data-en="Yaqin Hei" data-zh="黑亚琴">Yaqin Hei</h1>
+                    <p class="hero-tagline" data-en="Shipping AI into Production" data-zh="将AI推向生产环境">Shipping AI into Production</p>
+                    <p class="hero-bio" data-en="AI engineer focused on shipping large language models and multi-agent systems into production. At Apple, I built conversational AI systems serving millions of users, specializing in continual learning and domain adaptation for LLMs. I also led a team that built multi-agent systems automating 70% of IT tasks for Fortune 500 companies." data-zh="专注于将大语言模型和多智能体系统推向生产环境的AI工程师。在Apple，我构建了服务数百万用户的对话式AI系统，专注于LLM的持续学习和领域适应。我还领导团队构建了多智能体系统，为财富500强企业自动化了70%的IT任务。">
+                        AI engineer focused on shipping large language models and multi-agent systems into production. At Apple, I built conversational AI systems serving millions of users, specializing in continual learning and domain adaptation for LLMs. I also led a team that built multi-agent systems automating 70% of IT tasks for Fortune 500 companies.
                     </p>
-                    <div class="hero-cta">
-                        <a href="#research" class="btn btn-primary" data-en="View Research" data-zh="查看研究">View Research</a>
-                        <a href="#contact" class="btn btn-secondary" data-en="Get in Touch" data-zh="联系我">Get in Touch</a>
-                    </div>
-                    <div class="hero-stats">
-                        <div class="stat-item">
-                            <div class="stat-number">10%</div>
-                            <div class="stat-label" data-en="NLU Improvement" data-zh="NLU性能提升">NLU Improvement</div>
-                        </div>
-                        <div class="stat-item">
-                            <div class="stat-number">70%</div>
-                            <div class="stat-label" data-en="IT Automation" data-zh="IT自动化率">IT Automation</div>
-                        </div>
-                        <div class="stat-item">
-                            <div class="stat-number">5K+</div>
-                            <div class="stat-label" data-en="Community Members" data-zh="社群成员">Community Members</div>
-                        </div>
-                    </div>
-                </div>
-                <div class="hero-image">
-                    <div class="image-container">
-                        <img src="myphoto.png" alt="Yaqin Hei" class="profile-photo-hero">
-                        <div class="image-decoration"></div>
+                    <div class="hero-links">
+                        <a href="https://github.com/AmyHei" target="_blank" rel="noopener noreferrer">GitHub</a>
+                        <a href="https://x.com/coffahei" target="_blank" rel="noopener noreferrer">X</a>
+                        <a href="https://www.linkedin.com/in/yaqin-hei-7bab32196/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                        <a href="https://scholar.google.com/citations?user=cenSHdQAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Scholar</a>
+                        <a href="https://amyhei.github.io/ai-engineering-blog/" target="_blank" rel="noopener noreferrer">Blog</a>
+                        <a href="Yaqin_Hei_CV.pdf" target="_blank" data-en="CV" data-zh="简历">CV</a>
                     </div>
                 </div>
             </div>
-        </header>
+        </section>
 
-        <main>
-            <!-- Research Highlights Section -->
-            <section id="research" class="research-highlights">
-                <div class="section-header">
-                    <h2 class="section-title" data-en="Research Highlights" data-zh="研究亮点">Research Highlights</h2>
-                    <p class="section-subtitle" data-en="Advancing robust, aligned, and efficient AI systems through research and engineering" data-zh="通过研究和工程推进稳健、对齐且高效的AI系统">
-                        Advancing robust, aligned, and efficient AI systems through research and engineering
-                    </p>
-                </div>
+        <!-- Research -->
+        <section id="research" class="section">
+            <h2 data-en="Research" data-zh="研究">Research</h2>
 
-                <div class="research-grid">
-                    <div class="research-card featured">
-                        <div class="card-icon">🎯</div>
-                        <h3 data-en="Conversational AI at Apple" data-zh="Apple对话式AI">Conversational AI at Apple</h3>
-                        <div class="research-metrics">
-                            <span class="metric-badge">10% improvement</span>
-                            <span class="metric-badge">Transfer Learning</span>
-                        </div>
-                        <p data-en="Led development of LLM-powered conversational AI systems. Investigated transfer learning strategies for fine-tuning, achieving 10% relative improvement in NLU benchmark tasks. Built scalable training pipelines with continuous learning frameworks." data-zh="领导基于LLM的对话式AI系统开发。研究迁移学习策略进行微调，在NLU基准任务上实现10%的相对改进。构建可扩展的训练管道和持续学习框架。">
-                            Led development of LLM-powered conversational AI systems. Investigated transfer learning strategies for fine-tuning, achieving 10% relative improvement in NLU benchmark tasks. Built scalable training pipelines with continuous learning frameworks.
-                        </p>
-                        <div class="tech-stack">
-                            <span class="tech-badge">PyTorch</span>
-                            <span class="tech-badge">Transfer Learning</span>
-                            <span class="tech-badge">LLMs</span>
-                            <span class="tech-badge">NLU</span>
-                        </div>
-                    </div>
-
-                    <div class="research-card featured">
-                        <div class="card-icon">⚙️</div>
-                        <h3 data-en="Multi-LLM Orchestration" data-zh="多LLM编排系统">Multi-LLM Orchestration</h3>
-                        <div class="research-metrics">
-                            <span class="metric-badge">60-70% automation</span>
-                            <span class="metric-badge">Enterprise Scale</span>
-                        </div>
-                        <p data-en="Architected multi-LLM orchestration framework integrating OpenAI GPT, DeepSeek, and Qloean with ServiceNow backends. Automated 60-70% of repetitive IT service requests for global enterprises like Johnson & Johnson. Designed fallback and reliability strategies for production deployment." data-zh="架构多LLM编排框架，整合OpenAI GPT、DeepSeek和Qloean与ServiceNow后端。为强生等全球企业自动化60-70%的重复性IT服务请求。设计生产部署的故障回退和可靠性策略。">
-                            Architected multi-LLM orchestration framework integrating OpenAI GPT, DeepSeek, and Qloean with ServiceNow backends. Automated 60-70% of repetitive IT service requests for global enterprises like Johnson & Johnson. Designed fallback and reliability strategies for production deployment.
-                        </p>
-                        <div class="tech-stack">
-                            <span class="tech-badge">LangChain</span>
-                            <span class="tech-badge">RAG</span>
-                            <span class="tech-badge">ServiceNow</span>
-                            <span class="tech-badge">API Design</span>
-                        </div>
-                    </div>
-
-                    <div class="research-card featured">
-                        <div class="card-icon">🧪</div>
-                        <h3 data-en="Causal Inference & A/B Testing" data-zh="因果推断与A/B测试">Causal Inference & A/B Testing</h3>
-                        <p data-en="Applied causal inference and A/B testing at China Construction Bank to identify business drivers and improve risk detection. Formulated predictive models enhancing service delivery and operational efficiency." data-zh="在中国建设银行应用因果推断和A/B测试识别业务驱动因素，改进风险检测。构建预测模型提升服务交付和运营效率。">
-                            Applied causal inference and A/B testing at China Construction Bank to identify business drivers and improve risk detection. Formulated predictive models enhancing service delivery and operational efficiency.
-                        </p>
-                        <div class="tech-stack">
-                            <span class="tech-badge">Causal Inference</span>
-                            <span class="tech-badge">A/B Testing</span>
-                            <span class="tech-badge">Risk Modeling</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="research-interests">
-                    <h3 data-en="Research Interests" data-zh="研究兴趣">Research Interests</h3>
-                    <div class="interests-grid">
-                        <div class="interest-tag">Reinforcement Learning (RL)</div>
-                        <div class="interest-tag">Natural Language Processing</div>
-                        <div class="interest-tag">AI Alignment</div>
-                        <div class="interest-tag">Self-Supervised Learning</div>
-                        <div class="interest-tag">Sample-Efficient Learning</div>
-                        <div class="interest-tag">Robust AI Systems</div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- Publications Section -->
-            <section id="publications" class="publications-section">
-                <div class="section-header">
-                    <h2 class="section-title" data-en="Publications & Research" data-zh="发表论文与研究">Publications & Research</h2>
-                    <p class="section-subtitle" data-en="Published research bridging theory and practice in AI systems" data-zh="连接AI系统理论与实践的发表研究">
-                        Published research bridging theory and practice in AI systems
-                    </p>
-                </div>
-
-                <div class="publications-grid">
-                    <div class="publication-card">
-                        <div class="pub-year">2019</div>
-                        <h3>Factors Affecting China's Foreign Direct Investment in the United States</h3>
-                        <p class="pub-venue">Journal of International Business and Law, 18(2), Article 3</p>
-                        <p class="pub-abstract" data-en="Analyzed macroeconomic factors influencing Chinese FDI patterns in the US market using econometric modeling and statistical analysis." data-zh="使用计量经济模型和统计分析研究影响中国在美国市场外商直接投资模式的宏观经济因素。">
-                            Analyzed macroeconomic factors influencing Chinese FDI patterns in the US market using econometric modeling and statistical analysis.
-                        </p>
-                        <div class="pub-links">
-                            <a href="https://scholar.google.com/citations?user=cenSHdQAAAAJ&hl=en" target="_blank" class="pub-link">Google Scholar</a>
-                        </div>
-                    </div>
-
-                    <div class="publication-card">
-                        <div class="pub-year">2011</div>
-                        <h3 data-en="Wealth Management in the Trust Industry" data-zh="信托行业的财富管理">Wealth Management in the Trust Industry</h3>
-                        <p class="pub-venue">Financial Management, ISSN 1673-1107</p>
-                        <p class="pub-abstract" data-en="Research on improving wealth management practices in China's trust industry." data-zh="关于改进中国信托行业财富管理实践的研究。">
-                            Research on improving wealth management practices in China's trust industry.
-                        </p>
-                    </div>
-
-                    <div class="publication-card">
-                        <div class="pub-year">2007</div>
-                        <h3 data-en="Urban Traffic Congestion Analysis" data-zh="城市交通拥堵分析">Urban Traffic Congestion Analysis</h3>
-                        <p class="pub-venue">China Public Safety (Academic Edition), 3, 54-58</p>
-                        <p class="pub-abstract" data-en="Comprehensive study on urban traffic patterns and congestion mitigation strategies in major Chinese cities." data-zh="对中国主要城市的城市交通模式和拥堵缓解策略的综合研究。">
-                            Comprehensive study on urban traffic patterns and congestion mitigation strategies in major Chinese cities.
-                        </p>
-                    </div>
-                </div>
-            </section>
-
-            <!-- Impact & Leadership Section -->
-            <section id="impact" class="impact-section">
-                <div class="section-header">
-                    <h2 class="section-title" data-en="Impact & Leadership" data-zh="影响力与领导力">Impact & Leadership</h2>
-                    <p class="section-subtitle" data-en="Driving AI innovation from research to production at scale" data-zh="推动AI创新从研究到大规模生产">
-                        Driving AI innovation from research to production at scale
-                    </p>
-                </div>
-
-                <div class="impact-timeline">
-                    <div class="impact-card highlight">
-                        <div class="impact-badge">2022 - Present</div>
-                        <div class="impact-header">
-                            <h3 data-en="Senior Architect / ML Engineer" data-zh="高级架构师/机器学习工程师">Senior Architect / ML Engineer</h3>
-                            <h4>Apple (via Cognizant)</h4>
-                        </div>
-                        <p class="impact-summary" data-en="Led development of conversational AI systems for Apple's ecosystem, focusing on LLM optimization and cross-lingual NLU capabilities. Simultaneously architected enterprise AI automation solutions serving Fortune 500 clients." data-zh="领导苹果生态系统对话式AI系统开发，专注于LLM优化和跨语言NLU能力。同时为财富500强客户架构企业AI自动化解决方案。">
-                            Led development of conversational AI systems for Apple's ecosystem, focusing on LLM optimization and cross-lingual NLU capabilities. Simultaneously architected enterprise AI automation solutions serving Fortune 500 clients.
-                        </p>
-                        <div class="impact-metrics">
-                            <div class="metric-item">
-                                <div class="metric-value">10%</div>
-                                <div class="metric-label" data-en="NLU Accuracy Gain" data-zh="NLU准确率提升">NLU Accuracy Gain</div>
-                            </div>
-                            <div class="metric-item">
-                                <div class="metric-value">70%</div>
-                                <div class="metric-label" data-en="Task Automation" data-zh="任务自动化">Task Automation</div>
-                            </div>
-                            <div class="metric-item">
-                                <div class="metric-value">10+</div>
-                                <div class="metric-label" data-en="Team Size" data-zh="团队规模">Team Size</div>
-                            </div>
-                        </div>
-                        <div class="impact-tech">
-                            <span class="tech-tag">PyTorch</span>
-                            <span class="tech-tag">Transfer Learning</span>
-                            <span class="tech-tag">LangChain</span>
-                            <span class="tech-tag">RAG</span>
-                            <span class="tech-tag">ServiceNow</span>
-                        </div>
-                    </div>
-
-                    <div class="impact-card">
-                        <div class="impact-badge">2020 - 2022</div>
-                        <div class="impact-header">
-                            <h3 data-en="Algorithm Engineer / Tech Lead" data-zh="算法工程师/技术负责人">Algorithm Engineer / Tech Lead</h3>
-                            <h4 data-en="China Construction Bank" data-zh="中国建设银行">China Construction Bank</h4>
-                        </div>
-                        <p class="impact-summary" data-en="Led data-driven initiatives using causal inference and A/B testing to optimize financial operations and enhance risk detection systems." data-zh="领导数据驱动项目，使用因果推断和A/B测试优化金融运营并增强风险检测系统。">
-                            Led data-driven initiatives using causal inference and A/B testing to optimize financial operations and enhance risk detection systems.
-                        </p>
-                    </div>
-
-                    <div class="impact-card">
-                        <div class="impact-badge">2018 - 2020</div>
-                        <div class="impact-header">
-                            <h3 data-en="Data Scientist" data-zh="数据科学家">Data Scientist</h3>
-                            <h4>Solera, Texas, US</h4>
-                        </div>
-                        <p class="impact-summary" data-en="Developed NLP-based classification models for credit risk assessment and predictive routing, improving decision-making efficiency." data-zh="开发基于NLP的分类模型用于信用风险评估和预测路由，提高决策效率。">
-                            Developed NLP-based classification models for credit risk assessment and predictive routing, improving decision-making efficiency.
-                        </p>
-                    </div>
-                </div>
-            </section>
-
-            <!-- Community & Content Section -->
-            <section id="community" class="community-section">
-                <div class="section-header">
-                    <h2 class="section-title" data-en="Community & Thought Leadership" data-zh="社群与思想领导力">Community & Thought Leadership</h2>
-                    <p class="section-subtitle" data-en="Building AI education ecosystems and knowledge-sharing platforms" data-zh="构建AI教育生态系统和知识分享平台">
-                        Building AI education ecosystems and knowledge-sharing platforms
-                    </p>
-                </div>
-
-                <div class="community-grid">
-                    <div class="community-card">
-                        <div class="community-icon">🧠</div>
-                        <h3 data-en="AI Practice Community (京墨AI研习社)" data-zh="京墨AI研习社">AI Practice Community (京墨AI研习社)</h3>
-                        <p class="community-id">WeChat ID: HeiLabAI</p>
-                        <p data-en="Leading AI education platform sharing practical applications, industry trends, and structured thinking frameworks. Helping practitioners leverage AI for productivity and stay current with the latest developments." data-zh="领先的AI教育平台，分享实践应用、行业趋势和结构化思维框架。帮助从业者利用AI提升生产力并跟上最新发展。">
-                            Leading AI education platform sharing practical applications, industry trends, and structured thinking frameworks. Helping practitioners leverage AI for productivity and stay current with the latest developments.
-                        </p>
-                        <div class="community-stats">
-                            <span class="stat-badge">5K+ followers</span>
-                            <span class="stat-badge">AI Practice</span>
-                        </div>
-                    </div>
-
-                    <div class="community-card">
-                        <div class="community-icon">🌱</div>
-                        <h3 data-en="Growth Journal (玛塔塔成长志)" data-zh="玛塔塔成长志">Growth Journal (玛塔塔成长志)</h3>
-                        <p class="community-id">WeChat ID: MatataGrowth</p>
-                        <p data-en="Personal development platform focused on mental resilience, clear thinking, and professional expression in changing times." data-zh="专注于心理韧性、清晰思考和变化时代专业表达的个人发展平台。">
-                            Personal development platform focused on mental resilience, clear thinking, and professional expression in changing times.
-                        </p>
-                    </div>
-
-                    <div class="community-card">
-                        <div class="community-icon">🧩</div>
-                        <h3 data-en="Business Innovation Lab (商树实验室)" data-zh="商树实验室">Business Innovation Lab (商树实验室)</h3>
-                        <p class="community-id">WeChat ID: BusinessTreeLab</p>
-                        <p data-en="Exploring the intersection of AI creativity, experimental projects, and commercial applications." data-zh="探索AI创意、实验项目和商业应用的交叉点。">
-                            Exploring the intersection of AI creativity, experimental projects, and commercial applications.
-                        </p>
-                    </div>
-
-                    <div class="community-card">
-                        <div class="community-icon">⚙️</div>
-                        <h3 data-en="AI Practice Group" data-zh="AI实战群">AI Practice Group</h3>
-                        <p data-en="WeChat community for hands-on AI tool workshops, prompt engineering templates, and automation sharing." data-zh="微信社群，提供实践AI工具研讨会、Prompt工程模板和自动化分享。">
-                            WeChat community for hands-on AI tool workshops, prompt engineering templates, and automation sharing.
-                        </p>
-                    </div>
-
-                    <div class="community-card">
-                        <div class="community-icon">🎥</div>
-                        <h3 data-en="Video Content" data-zh="视频内容">Video Content</h3>
-                        <p data-en="Youtube & Rednode: Quick AI insights, workflow demonstrations, and thought pieces" data-zh="Youtube & Rednode：快速AI洞察、工作流演示和思考短片">
-                            Youtube & Rednode: Quick AI insights, workflow demonstrations, and thought pieces
-                        </p>
-                        <div class="social-links">
-                            <a href="https://www.youtube.com/@amyhei703" target="_blank">YouTube</a>
-                        </div>
-                    </div>
-
-                    <div class="community-card">
-                        <div class="community-icon">🗞️</div>
-                        <h3 data-en="Newsletter: AI × Growth Weekly" data-zh="Newsletter: AI × 成长周刊">Newsletter: AI × Growth Weekly</h3>
-                        <p data-en="Curated weekly insights on AI trends and personal growth strategies" data-zh="每周精选AI趋势和个人成长策略">
-                            Curated weekly insights on AI trends and personal growth strategies
-                        </p>
-                    </div>
-                </div>
-            </section>
-
-            <!-- Contact Section -->
-            <section id="contact" class="contact-section">
-                <div class="section-header">
-                    <h2 class="section-title" data-en="Let's Connect" data-zh="联系我">Let's Connect</h2>
-                    <p class="section-subtitle" data-en="Open to research collaborations, speaking opportunities, and PhD discussions" data-zh="欢迎研究合作、演讲机会和博士项目讨论">
-                        Open to research collaborations, speaking opportunities, and PhD discussions
-                    </p>
-                </div>
-
-                <div class="contact-grid">
-                    <div class="contact-card">
-                        <div class="contact-icon">📧</div>
-                        <h3>Email</h3>
-                        <a href="mailto:amyheiny@gmail.com">amyheiny@gmail.com</a>
-                    </div>
-
-                    <div class="contact-card">
-                        <div class="contact-icon">💬</div>
-                        <h3 data-en="WhatsApp / WeChat" data-zh="WhatsApp / 微信">WhatsApp / WeChat</h3>
-                        <div class="contact-methods">
-                            <a href="https://wa.me/27740823407" target="_blank">WhatsApp: +27 740823407</a>
-                            <p style="margin-top: 0.5rem;">WeChat ID: yaqinhei</p>
-                        </div>
-                    </div>
-
-                    <div class="contact-card">
-                        <div class="contact-icon">🔗</div>
-                        <h3 data-en="Academic Profiles" data-zh="学术档案">Academic Profiles</h3>
-                        <div class="profile-links">
-                            <a href="https://scholar.google.com/citations?user=cenSHdQAAAAJ&hl=en" target="_blank">Google Scholar</a>
-                            <a href="https://www.linkedin.com/in/yaqin-hei-7bab32196/" target="_blank">LinkedIn</a>
-                            <a href="https://x.com/coffahei" target="_blank">Twitter/X</a>
-                        </div>
-                    </div>
-
-                    <div class="contact-card">
-                        <div class="contact-icon">📄</div>
-                        <h3>CV</h3>
-                        <a href="Yaqin_Hei_CV.pdf" target="_blank" data-en="Download CV" data-zh="下载简历">Download CV</a>
-                    </div>
-                </div>
-            </section>
-        </main>
-
-        <footer class="main-footer">
-            <div class="footer-content">
-                <p data-en="&copy; 2025 Yaqin Hei. Building the future of AI systems." data-zh="&copy; 2025 黑亚琴. 构建AI系统的未来。">
-                    &copy; 2025 Yaqin Hei. Building the future of AI systems.
+            <div class="research-item">
+                <h3 data-en="Conversational AI at Apple" data-zh="Apple对话式AI">Conversational AI at Apple</h3>
+                <p data-en="Led development of LLM-powered conversational AI systems. Investigated transfer learning strategies for fine-tuning, achieving 10% relative improvement in NLU benchmark tasks. Built scalable training pipelines with continuous learning frameworks." data-zh="领导基于LLM的对话式AI系统开发。研究迁移学习策略进行微调，在NLU基准任务上实现10%的相对改进。构建可扩展的训练管道和持续学习框架。">
+                    Led development of LLM-powered conversational AI systems. Investigated transfer learning strategies for fine-tuning, achieving 10% relative improvement in NLU benchmark tasks. Built scalable training pipelines with continuous learning frameworks.
                 </p>
-                <div class="footer-links">
-                    <a href="https://scholar.google.com/citations?user=cenSHdQAAAAJ&hl=en" target="_blank">Google Scholar</a>
-                    <a href="https://www.linkedin.com/in/yaqin-hei-7bab32196/" target="_blank">LinkedIn</a>
-                    <a href="https://github.com/yaqinhei" target="_blank">GitHub</a>
+                <div class="tags">
+                    <span>PyTorch</span><span>Transfer Learning</span><span>LLMs</span><span>NLU</span>
                 </div>
             </div>
-        </footer>
-    </div>
+
+            <div class="research-item">
+                <h3 data-en="Multi-LLM Orchestration" data-zh="多LLM编排系统">Multi-LLM Orchestration</h3>
+                <p data-en="Architected multi-LLM orchestration framework integrating OpenAI GPT, DeepSeek, and Qloean with ServiceNow backends. Automated 60–70% of repetitive IT service requests for global enterprises. Designed fallback and reliability strategies for production deployment." data-zh="架构多LLM编排框架，整合OpenAI GPT、DeepSeek和Qloean与ServiceNow后端。为全球企业自动化60-70%的重复性IT服务请求。设计生产部署的故障回退和可靠性策略。">
+                    Architected multi-LLM orchestration framework integrating OpenAI GPT, DeepSeek, and Qloean with ServiceNow backends. Automated 60–70% of repetitive IT service requests for global enterprises. Designed fallback and reliability strategies for production deployment.
+                </p>
+                <div class="tags">
+                    <span>LangChain</span><span>RAG</span><span>ServiceNow</span><span>API Design</span>
+                </div>
+            </div>
+
+            <div class="research-item">
+                <h3 data-en="Causal Inference & A/B Testing" data-zh="因果推断与A/B测试">Causal Inference & A/B Testing</h3>
+                <p data-en="Applied causal inference and A/B testing at China Construction Bank to identify business drivers and improve risk detection. Formulated predictive models enhancing service delivery and operational efficiency." data-zh="在中国建设银行应用因果推断和A/B测试识别业务驱动因素，改进风险检测。构建预测模型提升服务交付和运营效率。">
+                    Applied causal inference and A/B testing at China Construction Bank to identify business drivers and improve risk detection. Formulated predictive models enhancing service delivery and operational efficiency.
+                </p>
+                <div class="tags">
+                    <span>Causal Inference</span><span>A/B Testing</span><span>Risk Modeling</span>
+                </div>
+            </div>
+
+            <h3 class="subsection-title" data-en="Research Interests" data-zh="研究兴趣">Research Interests</h3>
+            <div class="tags interests">
+                <span>Reinforcement Learning</span>
+                <span>Natural Language Processing</span>
+                <span>AI Alignment</span>
+                <span>Self-Supervised Learning</span>
+                <span>Sample-Efficient Learning</span>
+                <span>Robust AI Systems</span>
+            </div>
+
+            <h3 class="subsection-title" data-en="Publications" data-zh="论文">Publications</h3>
+
+            <div class="pub-item">
+                <span class="pub-year">2019</span>
+                <div>
+                    <a href="https://scholarlycommons.law.hofstra.edu/cgi/viewcontent.cgi?article=1353&context=jibl" target="_blank" rel="noopener noreferrer"><strong>Factors Affecting China's Foreign Direct Investment in the United States</strong></a>
+                    <div class="pub-venue">Journal of International Business and Law, 18(2), Article 3</div>
+                </div>
+            </div>
+            <div class="pub-item">
+                <span class="pub-year">2011</span>
+                <div>
+                    <strong data-en="Wealth Management in the Trust Industry" data-zh="信托行业的财富管理">Wealth Management in the Trust Industry</strong>
+                    <div class="pub-venue">Financial Management, ISSN 1673-1107</div>
+                </div>
+            </div>
+            <div class="pub-item">
+                <span class="pub-year">2007</span>
+                <div>
+                    <strong data-en="Urban Traffic Congestion Analysis" data-zh="城市交通拥堵分析">Urban Traffic Congestion Analysis</strong>
+                    <div class="pub-venue">China Public Safety (Academic Edition), 3, 54-58</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience -->
+        <section id="experience" class="section">
+            <h2 data-en="Experience" data-zh="经历">Experience</h2>
+
+            <div class="exp-item">
+                <div class="exp-date">2022 – Present</div>
+                <div>
+                    <h3 data-en="Senior Architect / ML Engineer · Apple" data-zh="高级架构师/机器学习工程师 · Apple">Senior Architect / ML Engineer · Apple</h3>
+                    <p data-en="Led development of conversational AI systems for Apple's ecosystem, focusing on LLM optimization and cross-lingual NLU capabilities. Architected enterprise AI automation solutions serving Fortune 500 clients." data-zh="领导苹果生态系统对话式AI系统开发，专注于LLM优化和跨语言NLU能力。为财富500强客户架构企业AI自动化解决方案。">
+                        Led development of conversational AI systems for Apple's ecosystem, focusing on LLM optimization and cross-lingual NLU capabilities. Architected enterprise AI automation solutions serving Fortune 500 clients.
+                    </p>
+                </div>
+            </div>
+
+            <div class="exp-item">
+                <div class="exp-date">2020 – 2022</div>
+                <div>
+                    <h3 data-en="Algorithm Engineer / Tech Lead · China Construction Bank" data-zh="算法工程师/技术负责人 · 中国建设银行">Algorithm Engineer / Tech Lead · China Construction Bank</h3>
+                    <p data-en="Led data-driven initiatives using causal inference and A/B testing to optimize financial operations and enhance risk detection systems." data-zh="领导数据驱动项目，使用因果推断和A/B测试优化金融运营并增强风险检测系统。">
+                        Led data-driven initiatives using causal inference and A/B testing to optimize financial operations and enhance risk detection systems.
+                    </p>
+                </div>
+            </div>
+
+            <div class="exp-item">
+                <div class="exp-date">2018 – 2020</div>
+                <div>
+                    <h3 data-en="Data Scientist · Solera, Texas" data-zh="数据科学家 · Solera, Texas">Data Scientist · Solera, Texas</h3>
+                    <p data-en="Developed NLP-based classification models for credit risk assessment and predictive routing, improving decision-making efficiency." data-zh="开发基于NLP的分类模型用于信用风险评估和预测路由，提高决策效率。">
+                        Developed NLP-based classification models for credit risk assessment and predictive routing, improving decision-making efficiency.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Community -->
+        <section id="community" class="section">
+            <h2 data-en="Community" data-zh="社群">Community</h2>
+
+            <div class="community-list">
+                <div class="community-item">
+                    <strong data-en="京墨AI研习社 @HeiLabAI" data-zh="京墨AI研习社 @HeiLabAI">京墨AI研习社 @HeiLabAI</strong>
+                    <span class="community-meta">WeChat · 5K+ followers</span>
+                    <p data-en="AI education platform sharing practical applications, industry trends, and structured thinking frameworks." data-zh="AI教育平台，分享实践应用、行业趋势和结构化思维框架。">
+                        AI education platform sharing practical applications, industry trends, and structured thinking frameworks.
+                    </p>
+                </div>
+
+                <div class="community-item">
+                    <strong data-en="商树实验室 @BusinessTreeLab" data-zh="商树实验室 @BusinessTreeLab">商树实验室 @BusinessTreeLab</strong>
+                    <span class="community-meta">WeChat</span>
+                    <p data-en="Exploring the intersection of AI creativity, experimental projects, and commercial applications." data-zh="探索AI创意、实验项目和商业应用的交叉点。">
+                        Exploring the intersection of AI creativity, experimental projects, and commercial applications.
+                    </p>
+                </div>
+
+                <div class="community-item">
+                    <strong data-en="玛塔塔成长志 @MatataGrowth" data-zh="玛塔塔成长志 @MatataGrowth">玛塔塔成长志 @MatataGrowth</strong>
+                    <span class="community-meta">WeChat</span>
+                    <p data-en="Personal development platform focused on mental resilience, clear thinking, and professional growth." data-zh="专注于心理韧性、清晰思考和职业成长的个人发展平台。">
+                        Personal development platform focused on mental resilience, clear thinking, and professional growth.
+                    </p>
+                </div>
+
+                <div class="community-item">
+                    <strong data-en="Video Channel" data-zh="视频号">Video Channel</strong>
+                    <span class="community-meta">Yaqin.AI</span>
+                    <p data-en="AI insights, workflow demonstrations, and thought pieces." data-zh="AI洞察、工作流演示和思考短片。">
+                        AI insights, workflow demonstrations, and thought pieces.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="section">
+            <h2 data-en="Contact" data-zh="联系">Contact</h2>
+
+            <ul class="contact-list">
+                <li>
+                    <strong>Email:</strong>
+                    <a href="mailto:amyheiny@gmail.com">amyheiny@gmail.com</a>
+                </li>
+                <li>
+                    <strong>GitHub:</strong>
+                    <a href="https://github.com/AmyHei" target="_blank" rel="noopener noreferrer">@AmyHei</a>
+                </li>
+                <li>
+                    <strong>X:</strong>
+                    <a href="https://x.com/coffahei" target="_blank" rel="noopener noreferrer">@coffahei</a>
+                </li>
+                <li>
+                    <strong>LinkedIn:</strong>
+                    <a href="https://www.linkedin.com/in/yaqin-hei-7bab32196/" target="_blank" rel="noopener noreferrer">Yaqin Hei</a>
+                </li>
+                <li>
+                    <strong>Google Scholar:</strong>
+                    <a href="https://scholar.google.com/citations?user=cenSHdQAAAAJ&hl=en" target="_blank" rel="noopener noreferrer">Profile</a>
+                </li>
+                <li>
+                    <strong data-en="WeChat:" data-zh="微信：">WeChat:</strong>
+                    京墨AI研习社@HeiLabAI / 商树实验室@BusinessTreeLab / 玛塔塔成长志@MatataGrowth
+                </li>
+                <li>
+                    <strong data-en="Video:" data-zh="视频号：">Video:</strong>
+                    Yaqin.AI
+                </li>
+            </ul>
+
+            <p class="contact-note" data-en="Open to research collaborations, speaking opportunities, and PhD discussions." data-zh="欢迎研究合作、演讲机会和博士项目讨论。">
+                Open to research collaborations, speaking opportunities, and PhD discussions.
+            </p>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <p>
+            &copy; 2026 Yaqin Hei &middot;
+            <a href="https://github.com/AmyHei" target="_blank" rel="noopener noreferrer">GitHub</a> &middot;
+            <a href="mailto:amyheiny@gmail.com">Email</a>
+        </p>
+    </footer>
 
     <script>
-        // Language switching functionality
-        document.addEventListener('DOMContentLoaded', function() {
+        document.addEventListener('DOMContentLoaded', function () {
             const langButtons = document.querySelectorAll('.lang-btn');
             const elementsWithTranslation = document.querySelectorAll('[data-en], [data-zh]');
-
-            // Get saved language or default to English
             let currentLang = localStorage.getItem('preferred-language') || 'en';
 
-            // Apply saved language on page load
             switchLanguage(currentLang);
 
-            // Add click event listeners to language buttons
             langButtons.forEach(button => {
-                button.addEventListener('click', function() {
+                button.addEventListener('click', function () {
                     const newLang = this.id === 'lang-en' ? 'en' : 'zh';
                     switchLanguage(newLang);
                     localStorage.setItem('preferred-language', newLang);
@@ -402,58 +260,27 @@
 
             function switchLanguage(lang) {
                 currentLang = lang;
-
-                // Update button states
                 langButtons.forEach(btn => {
-                    btn.classList.remove('active');
-                    if ((lang === 'en' && btn.id === 'lang-en') ||
-                        (lang === 'zh' && btn.id === 'lang-zh')) {
-                        btn.classList.add('active');
-                    }
+                    btn.classList.toggle('active', (lang === 'en' && btn.id === 'lang-en') || (lang === 'zh' && btn.id === 'lang-zh'));
                 });
-
-                // Update text content
-                elementsWithTranslation.forEach(element => {
-                    const key = lang === 'en' ? 'data-en' : 'data-zh';
-                    const translatedText = element.getAttribute(key);
-                    if (translatedText) {
-                        element.innerHTML = translatedText;
-                    }
+                elementsWithTranslation.forEach(el => {
+                    const text = el.getAttribute(lang === 'en' ? 'data-en' : 'data-zh');
+                    if (text) el.textContent = text;
                 });
             }
 
-            // Smooth scrolling for navigation links
             document.querySelectorAll('a[href^="#"]').forEach(anchor => {
                 anchor.addEventListener('click', function (e) {
+                    const href = this.getAttribute('href');
+                    if (href === '#') {
+                        e.preventDefault();
+                        window.scrollTo({ top: 0, behavior: 'smooth' });
+                        return;
+                    }
                     e.preventDefault();
-                    const target = document.querySelector(this.getAttribute('href'));
-                    if (target) {
-                        target.scrollIntoView({
-                            behavior: 'smooth',
-                            block: 'start'
-                        });
-                    }
+                    const target = document.querySelector(href);
+                    if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
                 });
-            });
-
-            // Intersection Observer for fade-in animations
-            const observerOptions = {
-                threshold: 0.1,
-                rootMargin: '0px 0px -50px 0px'
-            };
-
-            const observer = new IntersectionObserver((entries) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        entry.target.classList.add('fade-in');
-                        observer.unobserve(entry.target);
-                    }
-                });
-            }, observerOptions);
-
-            // Observe all sections and cards
-            document.querySelectorAll('section, .research-card, .impact-card, .publication-card, .community-card').forEach(el => {
-                observer.observe(el);
             });
         });
     </script>
